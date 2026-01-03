@@ -9,7 +9,7 @@ Title: Pastel Gaming Isometric Room
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function RoomModel(props) {
   const { nodes, materials } = useGLTF('/pastel_gaming_isometric_room.glb')
   const texture1 = useTexture('/photo1.jpg') // Place these in public folder
   const texture2 = useTexture('/photo2.jpg')
@@ -1662,8 +1662,3 @@ export function Model(props) {
 }
 
 useGLTF.preload('/pastel_gaming_isometric_room.glb')
-
-
-rembrandt
-
-city
